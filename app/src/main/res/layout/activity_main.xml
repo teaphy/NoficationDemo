@@ -1,0 +1,54 @@
+<?xml version="1.0" encoding="utf-8"?>
+<LinearLayout xmlns:app="http://schemas.android.com/apk/res-auto"
+    xmlns:tools="http://schemas.android.com/tools"
+    xmlns:android="http://schemas.android.com/apk/res/android"
+    android:orientation="vertical"
+    android:gravity="center"
+    android:layout_width="match_parent"
+    android:layout_height="match_parent"
+    tools:context=".MainActivity">
+
+    <Button
+        android:id="@+id/btnCustom"
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:text="普通通知"
+        />
+
+    <Button
+        android:id="@+id/btnUpdate"
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:text="更新通知"/>
+    <Button
+        android:id="@+id/btnCancelSpecify"
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:text="删除指定通知"/>
+    <Button
+        android:id="@+id/btnCancelAll"
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:text="删除所有通知"/>
+    <Button
+        android:id="@+id/btnTimeout"
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:text="倒计时通知"/>
+    <Button
+        android:id="@+id/btnAction"
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:text="带有动作按钮通知"/>
+    <Button
+        android:id="@+id/btnReply"
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:text="带有回复的通知"/>
+
+    <Button
+        android:id="@+id/btnProgress"
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:text="带有进度条的通知"/>
+</LinearLayout>
